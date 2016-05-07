@@ -1,0 +1,44 @@
+Milestone #1:
+This milestone was successfully completed. The Classes specifically designed for
+dealing with geographic neighborhoods were the 'CoordinateRegion' class (which contains
+variables and methods for latitude, longitude and elevation) and the 'Mappable' interface
+(which also contains methods for latitude, longitude, and elevation). It was designed
+in this way so that any type of region (be it Continent, City, Place), could have
+coordinates added on without ruining any other type of inheritance (City is already a PoliticalReigon,
+for example, and wouldn't be able to inherit from another type due to Java disabling
+multiple inheritance). This way, a region simply has to implement Mappable and 
+have a composition relationship with CoordinateRegion to be able to have geographic
+neighbors.
+
+Milestone #2:
+The recursive search for geographic neighbors was implemented through a method
+named 'generateRecursiveGeoNeighbors()' which takes in the initial region, breadth, length,
+and an array of already visited regions and then creates a list of recursive 
+geographic neighbors. This method was used in the RecursiveGNCheck, RecursiveGNList, and 
+RecursiveGNMapView classes. It was successfully implemented.
+
+Milestone #3:
+The 3 different types of views were successfully implemented through the use of 9
+different classes. The first three (NeighborhoodCheckSelectView, NeighborhoodListSelectView,
+NeighborhoodMapSelectView) are the windows that pop up whenever a user has just clicked the
+button and now needs to choose/enter information for what they want to be displayed. 
+The six other views are the corresponding views that pop up after the user has successfully entered
+the information they want to be displayed. Three of them (RecursiveGNCheckView, RecursiveGNListView,
+RecursiveGNMapView) display the information in recursive form while the other three 
+(GeoNeighborhoodListView, GeoNeighborhoodCheckView, GeoNeighborhoodMapView) display the 
+non-recursive version.
+
+Milestone #4:
+For this project, revisions were made to SelectionView (the main region data display
+panel) and to RecionController but none were made to the model. For SelectionView, new JMenuItems
+and JMenus were added for the new views and accessor methods were added for each of these
+new items. New ActionListener classes for each item were then added to RegionController.
+
+Milestone #5:
+Exception handling was added through all the file input/output actions in RegionController.
+Good examples would be within the saveData() and exportData() methods at the bottom of
+the class as well as within the ImportListener and LoadListener private classes. 
+
+
+Note: Image of world plate caree map taken from:
+http://www.emapsworld.com/world-plate-carree-projection-map.html

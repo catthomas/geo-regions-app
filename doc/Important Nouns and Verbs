@@ -1,0 +1,35 @@
+Nouns (More or Less Important):
+1. Geographic Region - More important
+2. latitude - less important
+3. longitude - less important
+3. elevation - less important
+5. geographic coordinates - less important
+6. Coordinate region - more important
+7. latitude neighborhood - less important
+8. breadth b - less important
+9. set of coordinate regions s - less important
+10. longitude neighborhood - less important
+11. length l - less important
+12. latlong neighborhood - less important
+13. recursive latitude neighborhood - less important
+14. model - more important
+15. view - more important
+16. controller - more important
+17. six new display views - more imortant
+18. 'Geographic Neighborhood List View' - more important
+19. New menu 'Neighborhoods' - less important
+20. New menu item 'Neighborhood List' - less important
+21. Geographic Neighborhood Check view - more important
+22. Geographic Neighborhood Map View - more important
+23. new menu item 'geographic neighborhood' - less important
+24. 'Recursive Geographic Neighborhood List View' - more important
+25. 'Recursive Geographic Neighborhood Map View' - more important
+26. 'Recursive Geographic Neighborhood Check View' - more important
+
+Verbs:
+1. Notify views of data change
+2. Close views when all data being displayed is gone
+3. add exception handling for everything (file/input)
+4. Display different geo neighborhood views
+
+
